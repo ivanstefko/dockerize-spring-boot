@@ -23,10 +23,10 @@ spring:
 # ----------------------------------------------------------------------------------------------------------------------
 # EMBEDED TOMCAT SETTINGS
 # ----------------------------------------------------------------------------------------------------------------------
-server:
-  port: 8443
-  ssl:
-    key-store: classpath:cert/gmcsrmd.jks
-    key-store-password: asdflkj!@#$1234lkjasdf__@#443ASDE
-    enabled: true
-    protocol: TLS
+# server:
+#   port: 8443
+#   ssl:
+#     key-store: classpath:cert/gmcsrmd.jks
+#     key-store-password: asdflkj!@#$1234lkjasdf__@#443ASDE
+#     enabled: true
+#     protocol: TLS
